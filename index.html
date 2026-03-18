@@ -1,19 +1,100 @@
-<h1> Hello </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Batch 10</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
 
-<h2> Welcome to batch 10 </h2>
+    body {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
 
-Hurray
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    }
 
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
 
-this is a feature
+    h2 {
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
 
-good feature 
+    .badge {
+      display: inline-block;
+      padding: 8px 16px;
+      background: #00ffcc;
+      color: #000;
+      border-radius: 50px;
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+    }
 
-I have fixed this now
+.features {
+  text-align: left;
+  
 
-I have fixed this
+    .feature {
+      background: rgba(255,255,255,0.15);
+      padding: 10px 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      transition: transform 0.2s ease;
+    }
 
+    .feature:hover {
+      transform: translateX(5px);
+      background: rgba(255,255,255,0.25);
+    }
 
+    .footer {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>👋 Hello</h1>
+    <h2>Welcome to Batch 10</h2>
 
+    <div class="badge">🚀 Hurray! You're in</div>
 
+    <div class="features">
+      <div class="feature">✨ This is a feature</div>
+      <div class="feature">🔥 Good feature</div>
+      <div class="feature">🆕 New feature added</div>
+      <div class="feature">🛠 Fixed issues successfully</div>
+      <div class="feature">😎 Cool feature</div>
+      <div class="feature">✅ Final fixes applied</div>
+      <div class="feature">🌱 Change from dev branch</div>
+    </div>
 
+    <div class="footer">Made with ❤️ by you</div>
+  </div>
+</body>
+</html>
